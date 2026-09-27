@@ -1,0 +1,21 @@
+{
+  "name": "ビジ法3級 一問一答",
+  "short_name": "ビジ法3級",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f7",
+  "theme_color": "#111827",
+  "lang": "ja-JP",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
