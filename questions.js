@@ -11,7 +11,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.27",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 1
   },
   {
     "id": "civil-shinri-002",
@@ -25,7 +27,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.27",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 1
   },
   {
     "id": "civil-shinri-003",
@@ -39,7 +43,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.27",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 1
   },
   {
     "id": "civil-ishihyoji-001",
@@ -53,7 +59,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.31",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-ishihyoji-002",
@@ -67,7 +75,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.31",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-ishihyoji-003",
@@ -81,7 +91,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.31",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-001",
@@ -95,7 +107,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.34",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-002",
@@ -109,7 +123,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.34",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-003",
@@ -123,7 +139,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.34-35",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-004",
@@ -137,7 +155,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.35",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-005",
@@ -151,7 +171,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.35",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-daiiri-006",
@@ -165,7 +187,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.33",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-kigen-001",
@@ -179,7 +203,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.39",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-joken-001",
@@ -193,7 +219,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.39",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-joken-002",
@@ -207,7 +235,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.39",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-joken-003",
@@ -221,7 +251,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.39-40",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-bensai-001",
@@ -235,7 +267,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "弁済の提供",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-bensai-002",
@@ -249,7 +283,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "弁済の提供",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-bensai-003",
@@ -263,7 +299,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.96",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-bensai-004",
@@ -277,7 +315,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.96",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-shohitaishaku-001",
@@ -291,7 +331,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.54",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-shohitaishaku-002",
@@ -305,7 +347,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.54",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-shohitaishaku-003",
@@ -319,7 +363,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.54",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-chintai-001",
@@ -333,7 +379,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.58",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-chintai-002",
@@ -347,7 +395,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.58",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-chintai-003",
@@ -361,7 +411,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.59",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-chintai-004",
@@ -375,7 +427,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.59",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-inin-001",
@@ -389,7 +443,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.67",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-inin-002",
@@ -403,7 +459,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.67",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-inin-003",
@@ -417,7 +475,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.67",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-fuho-001",
@@ -431,7 +491,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.68付近",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-fuho-002",
@@ -445,7 +507,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.68付近",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-fuho-003",
@@ -459,7 +523,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "不法行為と債務不履行の比較",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-fuho-004",
@@ -473,7 +539,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "使用者責任",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 3
   },
   {
     "id": "civil-baibai-001",
@@ -487,7 +555,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.52・84",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-baibai-002",
@@ -501,7 +571,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.84",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-baibai-003",
@@ -515,7 +587,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.52",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-saimufurikou-001",
@@ -529,7 +603,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "不法行為と債務不履行の比較",
     "verified": true,
-    "difficulty": 1
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-saimufurikou-002",
@@ -543,7 +619,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.49",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-saimufurikou-003",
@@ -557,7 +635,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.49",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
   },
   {
     "id": "civil-jiko-001",
@@ -571,7 +651,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-002",
@@ -585,7 +667,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-003",
@@ -599,7 +683,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-004",
@@ -613,7 +699,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-005",
@@ -627,7 +715,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-006",
@@ -641,7 +731,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-007",
@@ -655,7 +747,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.97",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-008",
@@ -669,7 +763,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.98-99",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-009",
@@ -683,7 +779,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.98-99",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-jiko-010",
@@ -697,7 +795,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.98-99",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-001",
@@ -711,7 +811,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.103",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-002",
@@ -725,7 +827,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.103",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-003",
@@ -739,7 +843,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.103",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-004",
@@ -753,7 +859,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "担保物権",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-005",
@@ -767,7 +875,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.102付近",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-006",
@@ -781,7 +891,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.102付近",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-007",
@@ -795,7 +907,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.102付近",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-008",
@@ -809,7 +923,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.102付近",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
   },
   {
     "id": "civil-tanpo-009",
@@ -823,7 +939,9 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.120",
     "verified": true,
-    "difficulty": 3
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
   },
   {
     "id": "civil-tanpo-010",
@@ -837,6 +955,968 @@ window.QUESTIONS = [
     "source": "TAC3級",
     "sourcePage": "p.120",
     "verified": true,
-    "difficulty": 2
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shichi-001",
+    "category": "担保",
+    "subCategory": "質権",
+    "question": "質権者は、担保として受け取った物を弁済まで留置し、弁済がなければ優先弁済を受けられる。",
+    "answer": true,
+    "explanation": "質権には留置的効力と優先弁済的効力の双方がある。",
+    "memoryTip": "質権＝留置○・優先○",
+    "confusion": "抵当権は留置×。",
+    "source": "TAC3級",
+    "sourcePage": "p.108",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shichi-002",
+    "category": "担保",
+    "subCategory": "債権質",
+    "question": "債権質を第三債務者に対抗するには、質権設定者からの通知または第三債務者の承諾が必要である。",
+    "answer": true,
+    "explanation": "債権質の第三債務者対抗要件は、質権設定者による通知または第三債務者の承諾。",
+    "memoryTip": "債権質→通知or承諾",
+    "confusion": "誰が通知するかにも注意。",
+    "source": "TAC3級",
+    "sourcePage": "p.110",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shichi-003",
+    "category": "担保",
+    "subCategory": "債権質",
+    "question": "債権質を第三債務者以外の第三者に対抗するには、確定日付ある証書による通知または承諾が必要である。",
+    "answer": true,
+    "explanation": "他の債権者など第三者への対抗には確定日付が必要。",
+    "memoryTip": "第三者対抗＝確定日付",
+    "confusion": "第三債務者への対抗要件より一段重い。",
+    "source": "TAC3級",
+    "sourcePage": "p.110",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-teito-001",
+    "category": "担保",
+    "subCategory": "抵当権",
+    "question": "抵当権は、設定者から抵当権者へ目的物の占有を移転して成立する担保である。",
+    "answer": false,
+    "explanation": "抵当権は非占有担保で、設定者が目的物を使用し続けられる。",
+    "memoryTip": "抵当権＝占有を移さない",
+    "confusion": "質権との違い。",
+    "source": "TAC3級",
+    "sourcePage": "p.111",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-teito-002",
+    "category": "担保",
+    "subCategory": "抵当権",
+    "question": "抵当権設定後も、設定者は原則として抵当不動産を使用し続けることができる。",
+    "answer": true,
+    "explanation": "抵当権は非占有担保なので設定者に利用権が残る。",
+    "memoryTip": "抵当権＝使いながら担保",
+    "confusion": "占有が必要な質権と対比。",
+    "source": "TAC3級",
+    "sourcePage": "p.111",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-teito-003",
+    "category": "担保",
+    "subCategory": "抵当権",
+    "question": "民法上、抵当権の目的となるのは不動産だけであり、地上権や永小作権には設定できない。",
+    "answer": false,
+    "explanation": "民法上は不動産のほか、地上権・永小作権にも抵当権を設定できる。",
+    "memoryTip": "抵当権＝不動産＋地上権・永小作権",
+    "confusion": "「不動産だけ」と断定しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.111",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-karito-001",
+    "category": "担保",
+    "subCategory": "仮登記担保",
+    "question": "仮登記担保は、担保目的の代物弁済の予約や停止条件付代物弁済契約などをいう。",
+    "answer": true,
+    "explanation": "仮登記担保法上、これらが典型。",
+    "memoryTip": "仮登記担保＝代物弁済予約など",
+    "confusion": "抵当権とは構造が違う。",
+    "source": "TAC3級",
+    "sourcePage": "p.116",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-karito-002",
+    "category": "担保",
+    "subCategory": "仮登記担保",
+    "question": "仮登記担保は、必ず裁判所の競売手続を経なければ実行できない。",
+    "answer": false,
+    "explanation": "仮登記担保は私的実行が可能。",
+    "memoryTip": "仮登記担保＝私的実行可",
+    "confusion": "ただし清算義務がある。",
+    "source": "TAC3級",
+    "sourcePage": "p.116",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-karito-003",
+    "category": "担保",
+    "subCategory": "仮登記担保",
+    "question": "仮登記担保権者は、私的実行をしても清算義務を負わない。",
+    "answer": false,
+    "explanation": "仮登記担保権者には清算義務がある。",
+    "memoryTip": "私的実行＋清算義務",
+    "confusion": "担保価値の取り過ぎは不可。",
+    "source": "TAC3級",
+    "sourcePage": "p.116",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoyukenryuho-001",
+    "category": "担保",
+    "subCategory": "所有権留保",
+    "question": "所有権留保では、代金完済前でも買主は原則として目的物を使用・収益できる。",
+    "answer": true,
+    "explanation": "所有権は売主に留保されても、買主の使用・収益は認められる。",
+    "memoryTip": "所有権留保＝買主は使用可",
+    "confusion": "所有権の所在と利用を分ける。",
+    "source": "TAC3級",
+    "sourcePage": "p.117",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoyukenryuho-002",
+    "category": "担保",
+    "subCategory": "所有権留保",
+    "question": "買主が残代金を支払わない場合、売主は契約を解除した上で目的物の返還を求める私的実行ができる。",
+    "answer": true,
+    "explanation": "TACでは所有権留保の実行として解除後の返還請求を整理している。",
+    "memoryTip": "未払→解除→返還",
+    "confusion": "実行後の清算も忘れない。",
+    "source": "TAC3級",
+    "sourcePage": "p.117",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoyukenryuho-003",
+    "category": "担保",
+    "subCategory": "所有権留保",
+    "question": "所有権留保の売主は、私的実行後の清算義務を負わない。",
+    "answer": false,
+    "explanation": "売主には清算義務がある。",
+    "memoryTip": "所有権留保も清算義務",
+    "confusion": "私的実行＝取り切り、ではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.117",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-rentai-001",
+    "category": "人的担保",
+    "subCategory": "連帯債務",
+    "question": "連帯債務者は、それぞれが債務の全額について履行する義務を負う。",
+    "answer": true,
+    "explanation": "連帯債務では各債務者が全額について責任を負う。",
+    "memoryTip": "連帯債務＝各自全額",
+    "confusion": "分割債務と区別。",
+    "source": "TAC3級",
+    "sourcePage": "p.118",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-rentai-002",
+    "category": "人的担保",
+    "subCategory": "連帯債務",
+    "question": "債務者が複数いれば、民法上は原則として当然に連帯債務となる。",
+    "answer": false,
+    "explanation": "可分債務では民法上、原則は分割債務。連帯債務は法令や意思表示などで成立する。",
+    "memoryTip": "複数債務者＝原則分割",
+    "confusion": "商行為では扱いが変わる。",
+    "source": "TAC3級",
+    "sourcePage": "p.118",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-rentai-003",
+    "category": "人的担保",
+    "subCategory": "連帯債務",
+    "question": "連帯債務者の1人が全額を弁済すれば、他の連帯債務者の債務も消滅する。",
+    "answer": true,
+    "explanation": "1人の全額履行により共同の免責が生じる。",
+    "memoryTip": "1人全額弁済→全体消滅",
+    "confusion": "債権者が二重に全額回収することはできない。",
+    "source": "TAC3級",
+    "sourcePage": "p.118",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-rentai-004",
+    "category": "人的担保",
+    "subCategory": "求償権",
+    "question": "連帯債務者の1人が弁済して共同の免責を得た場合、他の連帯債務者への求償が問題となる。",
+    "answer": true,
+    "explanation": "自己の負担部分に応じ、他の連帯債務者への求償権が認められる。",
+    "memoryTip": "連帯債務→弁済後に求償",
+    "confusion": "債権者への責任と内部負担は別。",
+    "source": "TAC3級",
+    "sourcePage": "p.118",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-hosho-001",
+    "category": "人的担保",
+    "subCategory": "保証",
+    "question": "保証債務には附従性と随伴性がある。",
+    "answer": true,
+    "explanation": "主債務の消滅や移転に保証債務が従う。",
+    "memoryTip": "保証も附従・随伴",
+    "confusion": "ただし優先弁済効はない。",
+    "source": "TAC3級",
+    "sourcePage": "p.120",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-hosho-002",
+    "category": "人的担保",
+    "subCategory": "保証",
+    "question": "通常の保証人は、まず主たる債務者に請求するよう求める催告の抗弁権を持つ。",
+    "answer": true,
+    "explanation": "通常保証には補充性があり、催告の抗弁権が認められる。",
+    "memoryTip": "通常保証＝催告の抗弁○",
+    "confusion": "連帯保証は×。",
+    "source": "TAC3級",
+    "sourcePage": "p.121",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-hosho-003",
+    "category": "人的担保",
+    "subCategory": "保証",
+    "question": "通常の保証人には、主たる債務者の財産から先に執行するよう求める検索の抗弁権がある。",
+    "answer": true,
+    "explanation": "通常保証には検索の抗弁権がある。",
+    "memoryTip": "通常保証＝検索の抗弁○",
+    "confusion": "連帯保証は×。",
+    "source": "TAC3級",
+    "sourcePage": "p.121",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-hosho-004",
+    "category": "人的担保",
+    "subCategory": "連帯保証",
+    "question": "連帯保証人にも、催告の抗弁権と検索の抗弁権が認められる。",
+    "answer": false,
+    "explanation": "連帯保証には補充性がなく、これらの抗弁権を持たない。",
+    "memoryTip": "連帯保証＝催告×・検索×",
+    "confusion": "通常保証との最重要差。",
+    "source": "TAC3級",
+    "sourcePage": "p.121",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-hosho-005",
+    "category": "人的担保",
+    "subCategory": "求償権",
+    "question": "保証人が主たる債務者に代わって弁済した場合、保証人は主たる債務者に求償できる。",
+    "answer": true,
+    "explanation": "保証人は最終負担者ではないため、弁済後に求償権を取得する。",
+    "memoryTip": "保証人が払う→主債務者へ求償",
+    "confusion": "弁済したら終わり、ではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.122",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoko-001",
+    "category": "商行為",
+    "subCategory": "民法との比較",
+    "question": "民法上の代理では原則として顕名が必要だが、商法上の商行為の代理では顕名不要と整理される。",
+    "answer": true,
+    "explanation": "TACの比較表では、民法は顕名必要、商法は顕名不要。",
+    "memoryTip": "代理：民法は顕名○、商法は不要",
+    "confusion": "民法と商法の対比問題。",
+    "source": "TAC3級",
+    "sourcePage": "p.125",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "商法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoko-002",
+    "category": "商行為",
+    "subCategory": "連帯債務",
+    "question": "数人の債務者が商行為により債務を負担するとき、商法上は連帯債務として扱われる。",
+    "answer": true,
+    "explanation": "商法511条1項による。",
+    "memoryTip": "商行為の複数債務者＝連帯",
+    "confusion": "民法原則は分割。",
+    "source": "TAC3級",
+    "sourcePage": "p.125",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "商法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-shoko-003",
+    "category": "商行為",
+    "subCategory": "連帯保証",
+    "question": "主たる債務が商行為により生じた場合、連帯保証の合意がなくても連帯保証となる場合がある。",
+    "answer": true,
+    "explanation": "TACでは商法511条2項により、一定の場合に当然に連帯保証となると整理している。",
+    "memoryTip": "商法の保証＝連帯化に注意",
+    "confusion": "民法上の通常保証と比較。",
+    "source": "TAC3級",
+    "sourcePage": "p.125",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "商法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-toki-001",
+    "category": "商業登記",
+    "subCategory": "消極的公示力",
+    "question": "登記事項は、登記がない限り善意の第三者に対抗できない。",
+    "answer": true,
+    "explanation": "これが商業登記の消極的公示力。",
+    "memoryTip": "未登記→善意第三者に対抗不可",
+    "confusion": "登記の効力の基本。",
+    "source": "TAC3級",
+    "sourcePage": "p.126-127",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "商法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-toki-002",
+    "category": "商業登記",
+    "subCategory": "積極的公示力",
+    "question": "登記があれば、正当な事由により知らなかった者を除き、善意の第三者にも登記事項の存在を対抗できる。",
+    "answer": true,
+    "explanation": "これが積極的公示力。",
+    "memoryTip": "登記あり→原則第三者に対抗可",
+    "confusion": "消極的公示力とセット。",
+    "source": "TAC3級",
+    "sourcePage": "p.127",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "商法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-toki-003",
+    "category": "商業登記",
+    "subCategory": "設立登記",
+    "question": "会社は、本店所在地で設立の登記をすることによって成立する。",
+    "answer": true,
+    "explanation": "会社法上、会社は設立登記により成立する。",
+    "memoryTip": "会社成立＝設立登記",
+    "confusion": "契約だけで会社成立ではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.127",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "会社法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-kaisha-001",
+    "category": "会社",
+    "subCategory": "会社の種類",
+    "question": "会社法上の会社は、株式会社・合名会社・合資会社・合同会社の4種類である。",
+    "answer": true,
+    "explanation": "会社法2条1号の整理。",
+    "memoryTip": "会社は4種類",
+    "confusion": "有限会社は現在の新設類型ではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.129-130",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "会社法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-kaisha-002",
+    "category": "会社",
+    "subCategory": "株式会社",
+    "question": "株式会社の株主は、原則として株式の引受価額を限度とする間接有限責任を負う。",
+    "answer": true,
+    "explanation": "株式会社は株式と株主の間接有限責任を本質とする。",
+    "memoryTip": "株主＝間接有限責任",
+    "confusion": "合名会社の社員と対比。",
+    "source": "TAC3級",
+    "sourcePage": "p.130・132",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "会社法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-l5-kaisha-003",
+    "category": "会社",
+    "subCategory": "公開会社",
+    "question": "全部の株式に譲渡制限がある会社だけが非公開会社であり、一部でも自由に譲渡できる株式があれば公開会社である。",
+    "answer": true,
+    "explanation": "TACは公開会社をこのように整理している。",
+    "memoryTip": "一部でも自由株式→公開会社",
+    "confusion": "全部自由でなくても公開会社になり得る。",
+    "source": "TAC3級",
+    "sourcePage": "p.135",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "会社法",
+    "lecture": 5
+  },
+  {
+    "id": "v3-civil-sosai-001",
+    "category": "債権",
+    "subCategory": "相殺",
+    "question": "相殺には、相手方の同意が必要である。",
+    "answer": false,
+    "explanation": "相殺は一方的な意思表示で行い、相手方の同意は不要。",
+    "memoryTip": "相殺＝一方的意思表示",
+    "confusion": "合意契約と混同しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.95",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sosai-002",
+    "category": "債権",
+    "subCategory": "相殺",
+    "question": "金銭債権と物の引渡請求権のように種類の異なる債権でも、原則として相殺できる。",
+    "answer": false,
+    "explanation": "相殺には同種の債権であることが必要。",
+    "memoryTip": "相殺＝同種債権",
+    "confusion": "金銭対金銭が典型。",
+    "source": "TAC3級",
+    "sourcePage": "p.95",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sosai-003",
+    "category": "債権",
+    "subCategory": "相殺",
+    "question": "双方の債務の履行地が異なる場合、相殺はできない。",
+    "answer": false,
+    "explanation": "履行地が異なっても相殺できる。",
+    "memoryTip": "履行地違いでも相殺可",
+    "confusion": "相殺要件に不要な条件を足さない。",
+    "source": "TAC3級",
+    "sourcePage": "p.95",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sosai-004",
+    "category": "債権",
+    "subCategory": "相殺",
+    "question": "自働債権の弁済期が到来していれば、受働債権の弁済期が未到来でも、期限の利益を放棄して相殺できる場合がある。",
+    "answer": true,
+    "explanation": "受働債権側の期限の利益を放棄できるため。",
+    "memoryTip": "自働債権の弁済期が鍵",
+    "confusion": "自働・受働を逆にしない。",
+    "source": "TAC3級",
+    "sourcePage": "p.95",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sosai-005",
+    "category": "債権",
+    "subCategory": "相殺",
+    "question": "相殺により、双方の債権は対当額で消滅する。",
+    "answer": true,
+    "explanation": "相殺は互いの同種債権を同額の範囲で消滅させる制度。",
+    "memoryTip": "相殺＝対当額で消滅",
+    "confusion": "全額同士でなくてもよい。",
+    "source": "TAC3級",
+    "sourcePage": "p.95",
+    "verified": true,
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-joto-001",
+    "category": "債権",
+    "subCategory": "債権譲渡",
+    "question": "債権には、原則として譲渡性がある。",
+    "answer": true,
+    "explanation": "民法466条1項の原則。",
+    "memoryTip": "債権＝原則譲渡可",
+    "confusion": "例外・制限は別途。",
+    "source": "TAC3級",
+    "sourcePage": "p.87",
+    "verified": true,
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-joto-002",
+    "category": "債権",
+    "subCategory": "将来債権",
+    "question": "譲渡時にまだ発生していない将来債権は、常に譲渡できない。",
+    "answer": false,
+    "explanation": "将来債権の譲渡も有効で、債権発生時に譲受人が取得する。",
+    "memoryTip": "将来債権も譲渡可",
+    "confusion": "現に存在する債権だけではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.87",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-joto-003",
+    "category": "債権",
+    "subCategory": "対抗要件",
+    "question": "債権譲渡を債務者に対抗するには、譲渡人からの通知または債務者の承諾が必要である。",
+    "answer": true,
+    "explanation": "民法467条1項の債務者対抗要件。",
+    "memoryTip": "債務者対抗＝通知or承諾",
+    "confusion": "通知主体は譲渡人。",
+    "source": "TAC3級",
+    "sourcePage": "p.87",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-joto-004",
+    "category": "債権",
+    "subCategory": "対抗要件",
+    "question": "債権譲渡の通知は、譲受人が単独で債務者に行えば、民法467条1項の通知として足りる。",
+    "answer": false,
+    "explanation": "TACでは通知を行う者は譲渡人であり、譲受人は行えないと整理している。",
+    "memoryTip": "通知するのは譲渡人",
+    "confusion": "譲受人からの連絡と混同しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.87",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-joto-005",
+    "category": "債権",
+    "subCategory": "二重譲渡",
+    "question": "債権の二重譲渡で第三者に対抗するには、確定日付ある証書による通知または承諾が必要である。",
+    "answer": true,
+    "explanation": "民法467条2項の第三者対抗要件。",
+    "memoryTip": "第三者対抗＝確定日付",
+    "confusion": "債務者対抗要件との違い。",
+    "source": "TAC3級",
+    "sourcePage": "p.88",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sokuji-001",
+    "category": "財産管理",
+    "subCategory": "即時取得",
+    "question": "不動産でも、買主が善意・無過失なら即時取得が成立する。",
+    "answer": false,
+    "explanation": "即時取得の対象は動産。不動産には適用されない。",
+    "memoryTip": "即時取得＝動産",
+    "confusion": "不動産登記の問題と分ける。",
+    "source": "TAC3級",
+    "sourcePage": "p.86-87",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sokuji-002",
+    "category": "財産管理",
+    "subCategory": "即時取得",
+    "question": "動産の即時取得には、取得者の善意・無過失が必要である。",
+    "answer": true,
+    "explanation": "無権利者からの取得でも、要件を満たせば動産の権利取得が認められる。",
+    "memoryTip": "即時取得＝善意・無過失",
+    "confusion": "善意だけでは足りない。",
+    "source": "TAC3級",
+    "sourcePage": "p.86-87",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sokuji-003",
+    "category": "財産管理",
+    "subCategory": "即時取得",
+    "question": "即時取得には取引行為が必要であり、相続のような包括承継では適用されない。",
+    "answer": true,
+    "explanation": "相続は取引行為ではないため即時取得の適用はない。",
+    "memoryTip": "即時取得＝取引行為が必要",
+    "confusion": "相続で善意でも不可。",
+    "source": "TAC3級",
+    "sourcePage": "p.86-87",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-sokuji-004",
+    "category": "財産管理",
+    "subCategory": "即時取得",
+    "question": "無権利者から動産を買った者でも、要件を満たせば即時取得により所有権を取得できる場合がある。",
+    "answer": true,
+    "explanation": "動産取引の安全を図る制度として即時取得がある。",
+    "memoryTip": "無権利者→要件充足で動産取得あり",
+    "confusion": "原則論と例外を区別。",
+    "source": "TAC3級",
+    "sourcePage": "p.86-87",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 4
+  },
+  {
+    "id": "v3-civil-kaijo-001",
+    "category": "債務不履行",
+    "subCategory": "解除",
+    "question": "債務不履行による契約解除は、相手方との合意がなければできない。",
+    "answer": false,
+    "explanation": "解除権者の一方的な意思表示によって契約関係を解消する。",
+    "memoryTip": "解除＝一方的意思表示",
+    "confusion": "合意解除とは別。",
+    "source": "TAC3級",
+    "sourcePage": "p.47付近",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-kaijo-002",
+    "category": "債務不履行",
+    "subCategory": "催告解除",
+    "question": "催告解除では、原則として相当の期間を定めて履行を催告し、その期間内に履行がないことが必要である。",
+    "answer": true,
+    "explanation": "民法541条の原則。",
+    "memoryTip": "催告解除＝相当期間＋不履行",
+    "confusion": "いきなり解除できる場合は別。",
+    "source": "TAC3級",
+    "sourcePage": "p.47-48",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-kaijo-003",
+    "category": "債務不履行",
+    "subCategory": "催告解除",
+    "question": "催告後も不履行なら、その不履行が軽微でも必ず解除できる。",
+    "answer": false,
+    "explanation": "契約・取引上の社会通念に照らして不履行が軽微なら催告解除できない。",
+    "memoryTip": "軽微な不履行→催告解除×",
+    "confusion": "数量不足がごく僅か等。",
+    "source": "TAC3級",
+    "sourcePage": "p.47-48",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-kaijo-004",
+    "category": "債務不履行",
+    "subCategory": "無催告解除",
+    "question": "債務の全部が履行不能なら、催告なしで直ちに解除できる。",
+    "answer": true,
+    "explanation": "民法542条の無催告解除事由。",
+    "memoryTip": "全部履行不能→無催告解除",
+    "confusion": "催告しても意味がない場合。",
+    "source": "TAC3級",
+    "sourcePage": "p.47-48",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-kaijo-005",
+    "category": "債務不履行",
+    "subCategory": "無催告解除",
+    "question": "債務者が債務全部の履行拒絶意思を明確に表示した場合でも、必ず催告が必要である。",
+    "answer": false,
+    "explanation": "明確な履行拒絶は無催告解除事由。",
+    "memoryTip": "明確な履行拒絶→催告不要",
+    "confusion": "催告解除の原則に固執しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.48",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-kaijo-006",
+    "category": "債務不履行",
+    "subCategory": "解除",
+    "question": "債務不履行解除には常に債務者の帰責事由が必要である。",
+    "answer": false,
+    "explanation": "催告解除・無催告解除とも、債務者の帰責事由は不要。ただし債権者の帰責事由による不履行なら解除できない。",
+    "memoryTip": "解除＝債務者帰責不要",
+    "confusion": "損害賠償の要件と混同しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.47付近",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-001",
+    "category": "契約",
+    "subCategory": "契約不適合",
+    "question": "契約不適合とは、目的物が種類・品質または数量に関して契約内容に適合しない場合をいう。",
+    "answer": true,
+    "explanation": "民法上の契約不適合の基本定義。",
+    "memoryTip": "種類・品質・数量",
+    "confusion": "旧『瑕疵』の語だけで覚えない。",
+    "source": "TAC3級",
+    "sourcePage": "p.49-50",
+    "verified": true,
+    "difficulty": 1,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-002",
+    "category": "契約",
+    "subCategory": "追完請求",
+    "question": "売買目的物が契約不適合なら、売主に帰責事由がなくても、原則として買主は履行の追完を請求できる。",
+    "answer": true,
+    "explanation": "追完請求は売主の帰責事由の有無を問わない。",
+    "memoryTip": "追完＝売主帰責不要",
+    "confusion": "損害賠償と混同しない。",
+    "source": "TAC3級",
+    "sourcePage": "p.49-50",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-003",
+    "category": "契約",
+    "subCategory": "代金減額",
+    "question": "買主が相当期間を定めて追完を催告し、その期間内に追完がなければ、売主の帰責事由がなくても代金減額を請求できる。",
+    "answer": true,
+    "explanation": "民法563条1項の整理。",
+    "memoryTip": "追完催告→不履行→減額",
+    "confusion": "一定の場合は無催告減額もある。",
+    "source": "TAC3級",
+    "sourcePage": "p.50",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-004",
+    "category": "契約",
+    "subCategory": "買主の帰責事由",
+    "question": "契約不適合が買主の帰責事由によって生じた場合でも、買主は必ず追完と代金減額を請求できる。",
+    "answer": false,
+    "explanation": "買主の帰責事由による場合、追完請求・代金減額請求はできない。",
+    "memoryTip": "買主原因→追完・減額×",
+    "confusion": "売主の帰責事由の話と逆にしない。",
+    "source": "TAC3級",
+    "sourcePage": "p.50",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-005",
+    "category": "契約",
+    "subCategory": "損害賠償・解除",
+    "question": "契約不適合で追完請求等ができる場合でも、要件を満たせば損害賠償請求や解除も可能である。",
+    "answer": true,
+    "explanation": "民法415条、541条・542条の要件を満たせば可能。",
+    "memoryTip": "契約不適合→追完だけではない",
+    "confusion": "各請求の要件は別。",
+    "source": "TAC3級",
+    "sourcePage": "p.50",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-futekigo-006",
+    "category": "契約",
+    "subCategory": "通知期間",
+    "question": "種類・品質の契約不適合は、原則として買主が知った時から1年以内に売主へ通知する必要がある。",
+    "answer": true,
+    "explanation": "民法566条本文。売主が引渡時に悪意・重過失の場合などは例外。",
+    "memoryTip": "種類・品質→知って1年以内通知",
+    "confusion": "数量不適合には同じ1年通知ルールをそのまま当てない。",
+    "source": "TAC3級",
+    "sourcePage": "p.50",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 2
+  },
+  {
+    "id": "v3-civil-ukeoi-001",
+    "category": "契約",
+    "subCategory": "請負",
+    "question": "請負契約は、仕事完成と報酬支払を約する双務・有償・諾成契約である。",
+    "answer": true,
+    "explanation": "当事者の合意があれば私法上の請負契約は成立する。",
+    "memoryTip": "請負＝仕事完成＋報酬",
+    "confusion": "『作業すること』だけではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.65",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
+  },
+  {
+    "id": "v3-civil-ukeoi-002",
+    "category": "契約",
+    "subCategory": "請負",
+    "question": "請負人は、仕事を99％まで行えば、原則として仕事未完成でも全額報酬を請求できる。",
+    "answer": false,
+    "explanation": "請負人の義務は仕事を完成すること。原則、完成しない限り報酬請求できない。",
+    "memoryTip": "請負＝完成義務",
+    "confusion": "委任との違いを意識。",
+    "source": "TAC3級",
+    "sourcePage": "p.65-66",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
+  },
+  {
+    "id": "v3-civil-ukeoi-003",
+    "category": "契約",
+    "subCategory": "請負",
+    "question": "請負の報酬は、特約がなければ原則として仕事完成後の後払いである。",
+    "answer": true,
+    "explanation": "報酬支払義務は発生するが、支払時期は原則仕事完成後。",
+    "memoryTip": "請負報酬＝原則後払い",
+    "confusion": "完成前請求を原則にしない。",
+    "source": "TAC3級",
+    "sourcePage": "p.65-66",
+    "verified": true,
+    "difficulty": 2,
+    "domain": "民法",
+    "lecture": 3
+  },
+  {
+    "id": "v3-civil-ukeoi-004",
+    "category": "契約",
+    "subCategory": "請負",
+    "question": "注文者は、仕事完成前であれば、損害を賠償して請負契約を解除できる。",
+    "answer": true,
+    "explanation": "民法641条による注文者の解除権。",
+    "memoryTip": "完成前→損害賠償して解除可",
+    "confusion": "無償で自由解除ではない。",
+    "source": "TAC3級",
+    "sourcePage": "p.66",
+    "verified": true,
+    "difficulty": 3,
+    "domain": "民法",
+    "lecture": 3
   }
 ];

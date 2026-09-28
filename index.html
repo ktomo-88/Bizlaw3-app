@@ -7,114 +7,115 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="ビジ法3級">
-  <title>ビジ法3級 一問一答</title>
+  <title>ビジ法3級 一問一答 v3</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="app-shell">
-    <header class="topbar">
-      <div>
-        <div class="eyebrow">2026 / 11 / 06 対策</div>
-        <h1>ビジ法3級 一問一答</h1>
-      </div>
-      <button id="homeBtn" class="ghost hidden" type="button">ホーム</button>
-    </header>
+<main class="app-shell">
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">2026 / 11 / 06 対策</div>
+      <h1>ビジ法3級 一問一答 <span class="v">v3</span></h1>
+      <div id="bankSummary" class="bank-summary"></div>
+    </div>
+    <button id="homeBtn" class="ghost hidden" type="button">ホーム</button>
+  </header>
 
-    <section id="homeScreen" class="screen active">
-      <div class="stats-grid">
-        <article class="stat-card"><span>今日</span><strong id="todayAnswered">0</strong><small>問</small></article>
-        <article class="stat-card"><span>今日の正答率</span><strong id="todayAccuracy">-</strong><small>%</small></article>
-        <article class="stat-card"><span>要復習</span><strong id="dueCount">0</strong><small>問</small></article>
-        <article class="stat-card"><span>累計回答</span><strong id="totalAnswered">0</strong><small>問</small></article>
-      </div>
+  <section id="homeScreen" class="screen active">
+    <div class="stats-grid">
+      <article class="stat-card"><span>今日</span><strong id="todayAnswered">0</strong><small>問</small></article>
+      <article class="stat-card"><span>今日の正答率</span><strong id="todayAccuracy">-</strong><small>%</small></article>
+      <article class="stat-card"><span>要復習</span><strong id="dueCount">0</strong><small>問</small></article>
+      <article class="stat-card"><span>累計回答</span><strong id="totalAnswered">0</strong><small>問</small></article>
+    </div>
 
-      <div class="menu-grid">
-        <button class="menu primary" data-mode="due"><strong>今日の復習</strong><span>期限到来＋誤答を優先</span></button>
-        <button class="menu" data-mode="weak"><strong>弱点だけ</strong><span>誤答・怪しい問題</span></button>
-        <button class="menu" data-mode="random"><strong>全分野ランダム</strong><span>弱点を少し厚めに</span></button>
-        <button class="menu" data-mode="category"><strong>分野別</strong><span>好きな分野を集中</span></button>
-        <button class="menu" data-mode="mock"><strong>模擬20問</strong><span>20問を重複なしで出題</span></button>
-      </div>
+    <div class="focus-grid">
+      <button class="menu focus-civil" data-mode="civil"><strong>民法特訓</strong><span>民法だけを横断。弱点を優先</span></button>
+      <button class="menu focus-l5" data-mode="lecture5"><strong>第5回 復習</strong><span>担保・保証・商法・会社法</span></button>
+    </div>
 
-      <section class="panel">
-        <div class="panel-head">
-          <h2>分野別成績</h2>
-          <button id="refreshStatsBtn" class="text-btn" type="button">更新</button>
-        </div>
-        <div id="categoryStats" class="category-stats"></div>
-      </section>
+    <div class="menu-grid">
+      <button class="menu primary" data-mode="due"><strong>今日の復習</strong><span>学習済みで期限到来した問題</span></button>
+      <button class="menu" data-mode="weak"><strong>弱点だけ</strong><span>誤答・怪しい問題</span></button>
+      <button class="menu" data-mode="random"><strong>全分野ランダム</strong><span>弱点を少し厚めに</span></button>
+      <button class="menu" data-mode="category"><strong>分野別</strong><span>好きな分野を集中</span></button>
+      <button class="menu" data-mode="mock"><strong>模擬20問</strong><span>全範囲から20問、重複なし</span></button>
+    </div>
 
-      <section class="panel compact">
-        <div class="panel-head"><h2>データ管理</h2></div>
-        <div class="data-actions">
-          <button id="exportBtn" class="secondary" type="button">学習データを書き出す</button>
-          <label class="secondary file-label">学習データを読み込む<input id="importInput" type="file" accept="application/json"></label>
-          <button id="resetBtn" class="danger-outline" type="button">学習記録を初期化</button>
-        </div>
-      </section>
+    <section class="panel">
+      <div class="panel-head"><h2>分野別成績</h2><button id="refreshStatsBtn" class="text-btn">更新</button></div>
+      <div id="categoryStats" class="category-stats"></div>
     </section>
 
-    <section id="categoryScreen" class="screen">
-      <section class="panel">
-        <h2>分野を選択</h2>
-        <div id="categoryButtons" class="category-buttons"></div>
-      </section>
-    </section>
-
-    <section id="quizScreen" class="screen">
-      <div class="quiz-meta">
-        <span id="modeLabel">学習</span>
-        <span id="progressLabel">1 / 10</span>
+    <section class="panel compact">
+      <div class="panel-head"><h2>データ管理</h2></div>
+      <div class="data-actions">
+        <button id="exportBtn" class="secondary">学習データを書き出す</button>
+        <label class="secondary file-label">学習データを読み込む<input id="importInput" type="file" accept="application/json"></label>
+        <button id="resetBtn" class="danger-outline">学習記録を初期化</button>
       </div>
-      <div class="progress-track"><div id="progressBar"></div></div>
-
-      <article class="question-card">
-        <div class="tag-row">
-          <span id="categoryTag" class="tag"></span>
-          <span id="subCategoryTag" class="tag muted"></span>
-        </div>
-        <div id="questionText" class="question-text"></div>
-
-        <div id="answerButtons" class="answer-buttons">
-          <button id="trueBtn" class="answer true" type="button"><span>○</span> 正しい</button>
-          <button id="falseBtn" class="answer false" type="button"><span>×</span> 誤り</button>
-        </div>
-
-        <div id="explanationBox" class="explanation hidden" aria-live="polite">
-          <div id="verdict" class="verdict"></div>
-          <dl>
-            <div><dt>理由</dt><dd id="explanationText"></dd></div>
-            <div><dt>一言暗記</dt><dd id="memoryTip"></dd></div>
-            <div><dt>ひっかけ</dt><dd id="confusionText"></dd></div>
-            <div><dt>参照</dt><dd id="sourceText"></dd></div>
-          </dl>
-          <div id="gradeButtons" class="grade-buttons">
-            <button data-grade="wrong" class="grade wrong" type="button">間違えた</button>
-            <button data-grade="uncertain" class="grade uncertain" type="button">怪しい</button>
-            <button data-grade="known" class="grade known" type="button">分かった</button>
-          </div>
-          <button id="mockNextBtn" class="primary-wide hidden" type="button">次の問題</button>
-        </div>
-      </article>
+      <p class="note">v2と同じ保存領域を使うので、同じ端末・同じホーム画面Webアプリなら既存の学習履歴を引き継ぎます。</p>
     </section>
+  </section>
 
-    <section id="resultScreen" class="screen">
-      <section class="panel result-panel">
-        <div class="eyebrow">模擬20問 結果</div>
-        <div id="mockScore" class="mock-score"></div>
-        <div id="mockBreakdown" class="mock-breakdown"></div>
-        <div id="mockMistakes" class="mock-mistakes"></div>
-        <div class="result-actions">
-          <button id="reviewMistakesBtn" class="primary-wide" type="button">誤答だけ復習</button>
-          <button id="backHomeBtn" class="secondary-wide" type="button">ホームへ</button>
-        </div>
-      </section>
+  <section id="categoryScreen" class="screen">
+    <section class="panel">
+      <h2>分野を選択</h2>
+      <div id="categoryButtons" class="category-buttons"></div>
     </section>
-  </main>
+  </section>
 
-  <script src="questions.js"></script>
-  <script src="app.js"></script>
+  <section id="quizScreen" class="screen">
+    <div class="quiz-meta"><span id="modeLabel">学習</span><span id="progressLabel">1 / 20</span></div>
+    <div class="progress-track"><div id="progressBar"></div></div>
+    <article class="question-card">
+      <div class="tag-row">
+        <span id="categoryTag" class="tag"></span>
+        <span id="subCategoryTag" class="tag muted"></span>
+        <span id="domainTag" class="tag domain"></span>
+        <span id="lectureTag" class="tag lecture hidden"></span>
+      </div>
+      <div id="questionText" class="question-text"></div>
+
+      <div id="answerButtons" class="answer-buttons">
+        <button id="trueBtn" class="answer true"><span>○</span> 正しい</button>
+        <button id="falseBtn" class="answer false"><span>×</span> 誤り</button>
+      </div>
+
+      <div id="explanationBox" class="explanation hidden" aria-live="polite">
+        <div id="verdict" class="verdict"></div>
+        <dl>
+          <div><dt>理由</dt><dd id="explanationText"></dd></div>
+          <div><dt>一言暗記</dt><dd id="memoryTip"></dd></div>
+          <div><dt>ひっかけ</dt><dd id="confusionText"></dd></div>
+          <div><dt>参照</dt><dd id="sourceText"></dd></div>
+        </dl>
+        <div id="gradeButtons" class="grade-buttons">
+          <button data-grade="wrong" class="grade wrong">間違えた</button>
+          <button data-grade="uncertain" class="grade uncertain">怪しい</button>
+          <button data-grade="known" class="grade known">分かった</button>
+        </div>
+        <button id="mockNextBtn" class="primary-wide hidden">次の問題</button>
+      </div>
+    </article>
+  </section>
+
+  <section id="resultScreen" class="screen">
+    <section class="panel result-panel">
+      <div class="eyebrow">模擬20問 結果</div>
+      <div id="mockScore" class="mock-score"></div>
+      <div id="mockBreakdown" class="mock-breakdown"></div>
+      <div id="mockMistakes" class="mock-mistakes"></div>
+      <div class="result-actions">
+        <button id="reviewMistakesBtn" class="primary-wide">誤答だけ復習</button>
+        <button id="backHomeBtn" class="secondary-wide">ホームへ</button>
+      </div>
+    </section>
+  </section>
+</main>
+<script src="questions.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
