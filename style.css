@@ -50,3 +50,5 @@ h1{font-size:26px;line-height:1.25;margin:4px 0}.v{font-size:15px;color:var(--mu
   .question-text{font-size:20px;min-height:165px}
   .category-row{grid-template-columns:1fr 1fr .5fr}
 }
+
+.daily-panel{margin:0 0 12px;border-color:#bfdbfe;background:#eff6ff}.daily-panel .note{margin:8px 0 12px}.daily-panel .primary-wide{margin:0}.subtle{font-size:12px;color:#4b5563}.flash-card .question-text{min-height:160px}.flash-answer{background:#f0fdf4;border:1px solid #bbf7d0;padding:18px;border-radius:14px;line-height:1.6}.flash-answer strong{display:block;font-size:23px;margin-top:12px}.flash-card .grade-buttons{margin-top:12px}

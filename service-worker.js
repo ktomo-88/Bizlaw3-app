@@ -1,5 +1,5 @@
-const CACHE = "bizlaw3-v3";
-const ASSETS = ["./","./index.html","./style.css","./questions.js","./app.js","./manifest.webmanifest","./icon-192.png","./icon-512.png"];
+const CACHE = "bizlaw3-v4";
+const ASSETS = ["./","./index.html","./style.css","./questions.js","./app.js","./flashcards.js","./manifest.webmanifest","./icon-192.png","./icon-512.png"];
 self.addEventListener("install",event=>{
   event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });

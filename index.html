@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="ビジ法3級">
-  <title>ビジ法3級 一問一答 v3</title>
+  <title>ビジ法3級 一問一答 v4</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="stylesheet" href="style.css">
@@ -17,7 +17,7 @@
   <header class="topbar">
     <div>
       <div class="eyebrow">2026 / 11 / 06 対策</div>
-      <h1>ビジ法3級 一問一答 <span class="v">v3</span></h1>
+      <h1>ビジ法3級 一問一答 <span class="v">v4</span></h1>
       <div id="bankSummary" class="bank-summary"></div>
     </div>
     <button id="homeBtn" class="ghost hidden" type="button">ホーム</button>
@@ -31,15 +31,26 @@
       <article class="stat-card"><span>累計回答</span><strong id="totalAnswered">0</strong><small>問</small></article>
     </div>
 
+    <section class="panel daily-panel">
+      <div class="panel-head"><h2>今日の暗記カード</h2><span class="subtle" id="flashProgressLabel"></span></div>
+      <p class="note">新規は毎日5枚まで。復習は1・3・7・14・30日後。答えを見る前に思い出してください。</p>
+      <button id="startFlashBtn" class="primary-wide" type="button">今日のカードを開始</button>
+    </section>
+
     <div class="focus-grid">
       <button class="menu focus-civil" data-mode="civil"><strong>民法特訓</strong><span>民法だけを横断。弱点を優先</span></button>
       <button class="menu focus-l5" data-mode="lecture5"><strong>第5回 復習</strong><span>担保・保証・商法・会社法</span></button>
     </div>
 
+    <div class="focus-grid">
+      <button class="menu focus-l5" data-mode="lecture6"><strong>第6回 弱点特訓</strong><span>会社機関・支配人・強制執行・倒産</span></button>
+      <button class="menu focus-civil" data-mode="lecture7"><strong>第7回 重要論点</strong><span>独禁・取適・消費者法・知財</span></button>
+    </div>
     <div class="menu-grid">
       <button class="menu primary" data-mode="due"><strong>今日の復習</strong><span>学習済みで期限到来した問題</span></button>
       <button class="menu" data-mode="weak"><strong>弱点だけ</strong><span>誤答・怪しい問題</span></button>
       <button class="menu" data-mode="random"><strong>全分野ランダム</strong><span>弱点を少し厚めに</span></button>
+      <button class="menu" data-mode="compare"><strong>混同特訓</strong><span>似た制度の違いを重点復習</span></button>
       <button class="menu" data-mode="category"><strong>分野別</strong><span>好きな分野を集中</span></button>
       <button class="menu" data-mode="mock"><strong>模擬20問</strong><span>全範囲から20問、重複なし</span></button>
     </div>
@@ -58,6 +69,25 @@
       </div>
       <p class="note">v2と同じ保存領域を使うので、同じ端末・同じホーム画面Webアプリなら既存の学習履歴を引き継ぎます。</p>
     </section>
+  </section>
+
+  <section id="flashScreen" class="screen">
+    <div class="quiz-meta"><span>今日の暗記カード</span><span id="flashCount">1/5</span></div>
+    <div class="progress-track"><div id="flashProgressBar"></div></div>
+    <article class="question-card flash-card">
+      <div class="tag-row"><span id="flashTag" class="tag"></span><span id="flashOrigin" class="tag lecture"></span></div>
+      <div class="question-text" id="flashFront"></div>
+      <div id="flashHiddenArea"><button id="flashRevealBtn" class="primary-wide">答えを見る</button></div>
+      <div id="flashRevealedArea" class="hidden">
+        <div class="flash-answer"><span class="eyebrow">答え</span><strong id="flashBack"></strong></div>
+        <div class="grade-buttons">
+          <button class="grade wrong" data-flash-grade="again">忘れた</button>
+          <button class="grade uncertain" data-flash-grade="hard">怪しい</button>
+          <button class="grade known" data-flash-grade="known">思い出せた</button>
+        </div>
+      </div>
+    </article>
+    <p class="note" id="flashNote">答えを見る前に声に出して答えてください。</p>
   </section>
 
   <section id="categoryScreen" class="screen">
@@ -116,6 +146,7 @@
   </section>
 </main>
 <script src="questions.js"></script>
+<script src="flashcards.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

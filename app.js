@@ -2,20 +2,23 @@
   "use strict";
 
   const QUESTIONS = (window.QUESTIONS || []).filter(q => q.verified === true);
+  const FLASHCARDS = (window.FLASHCARDS || []);
   // v2と同じキーを維持。既存の学習履歴を引き継ぐ。
   const STORAGE_KEY = "bizlaw3_state_v2";
-  const STATE_VERSION = 3;
+  const STATE_VERSION = 4;
   const INTERVALS = [1, 3, 7, 14, 30];
   const SESSION_LIMIT = 20;
 
   const $ = id => document.getElementById(id);
-  const screens = ["homeScreen","categoryScreen","quizScreen","resultScreen"];
+  const screens = ["homeScreen","categoryScreen","quizScreen","resultScreen","flashScreen"];
 
   let state = loadState();
   let session = null;
   let current = null;
   let answered = false;
   let lastAnswerCorrect = null;
+  let flashSession = null;
+  let shownFlash = null;
 
   function todayKey(d = new Date()) {
     const y = d.getFullYear();
@@ -31,7 +34,7 @@
     return todayKey(d);
   }
 
-  function defaultState(){ return {version:STATE_VERSION,cards:{},daily:{},totalAnswered:0}; }
+  function defaultState(){ return {version:STATE_VERSION,cards:{},daily:{},totalAnswered:0,flashStates:{},flashNewDaily:{}}; }
 
   function loadState(){
     try{
@@ -43,6 +46,8 @@
       parsed.cards ||= {};
       parsed.daily ||= {};
       parsed.totalAnswered ||= 0;
+      parsed.flashStates ||= {};
+      parsed.flashNewDaily ||= {};
       return parsed;
     }catch(e){
       return defaultState();
@@ -127,6 +132,9 @@
     else if(mode==="lecture5") pool=weightedUnique(QUESTIONS.filter(q=>q.lecture===5));
     else if(mode==="category") pool=weightedUnique(QUESTIONS.filter(q=>q.category===category));
     else if(mode==="mock") pool=shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length));
+    else if(mode==="lecture6") pool=weightedUnique(QUESTIONS.filter(q=>q.lecture===6));
+    else if(mode==="lecture7") pool=weightedUnique(QUESTIONS.filter(q=>q.lecture===7));
+    else if(mode==="compare") pool=weightedUnique(QUESTIONS.filter(q=>q.compare===true));
 
     if(!pool.length){
       alert(mode==="due" ? "今日の復習はありません。全分野ランダムや民法特訓で新しい問題を進めてください。" : "該当する問題がありません。");
@@ -146,6 +154,9 @@
     if(session.mode==="weak") return "弱点だけ";
     if(session.mode==="civil") return "民法特訓";
     if(session.mode==="lecture5") return "第5回 復習";
+    if(session.mode==="lecture6") return "第6回 弱点特訓";
+    if(session.mode==="lecture7") return "第7回 重要論点";
+    if(session.mode==="compare") return "混同特訓";
     if(session.mode==="category") return session.category;
     return "全分野ランダム";
   }
@@ -287,10 +298,11 @@
     $("todayAccuracy").textContent=d.answered ? Math.round(d.correct/d.answered*100) : "-";
     $("dueCount").textContent=dueQuestions().length;
     $("totalAnswered").textContent=state.totalAnswered||0;
+    updateFlashStats();
 
     const civil=QUESTIONS.filter(q=>q.domain==="民法").length;
     const l5=QUESTIONS.filter(q=>q.lecture===5).length;
-    $("bankSummary").textContent=`収録 ${QUESTIONS.length}問 ／ 民法 ${civil}問 ／ 第5回 ${l5}問`;
+    $("bankSummary").textContent=`収録 ${QUESTIONS.length}問 ／ 第6回補強30問 ／ 第7回新規50問 ／ 暗記カード${FLASHCARDS.length}枚`;
 
     const cats=[...new Set(QUESTIONS.map(q=>q.category))];
     $("categoryStats").innerHTML=cats.map(cat=>{
@@ -339,7 +351,9 @@
       try{
         const parsed=JSON.parse(reader.result);
         if(!parsed || typeof parsed!=="object" || !parsed.cards) throw new Error("invalid");
-        parsed.version=STATE_VERSION; parsed.daily ||= {}; parsed.totalAnswered ||= 0;
+        parsed.version=STATE_VERSION; parsed.daily ||= {}; parsed.totalAnswered ||= 0; parsed.flashStates ||= {}; parsed.flashNewDaily ||= {};
+      parsed.flashStates ||= {};
+      parsed.flashNewDaily ||= {};
         state=parsed; saveState(); updateDashboard(); alert("学習データを読み込みました。");
       }catch(e){ alert("読み込めないJSONです。"); }
     };
@@ -350,7 +364,83 @@
     return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
   }
 
+
+  function flashState(id){
+    if(!state.flashStates[id]){
+      state.flashStates[id]={seenCount:0,stage:0,nextReview:null,lastAnswered:null,misses:0};
+    }
+    return state.flashStates[id];
+  }
+  function flashDue(){
+    const t=todayKey();
+    return FLASHCARDS.filter(f=>{
+      const s=flashState(f.id);
+      return s.seenCount>0 && s.nextReview && s.nextReview<=t;
+    });
+  }
+  function flashNewAvailable(){
+    const remaining=Math.max(0,5-(state.flashNewDaily[todayKey()]||0));
+    if(!remaining) return [];
+    return FLASHCARDS.filter(f=>flashState(f.id).seenCount===0).slice(0,remaining);
+  }
+  function updateFlashStats(){
+    const due=flashDue().length;
+    const fresh=flashNewAvailable().length;
+    $("flashProgressLabel").textContent=`復習${due}枚＋新規${fresh}枚`;
+    $("startFlashBtn").textContent=(due+fresh)?`今日のカード ${due+fresh}枚を開始`:'今日のカードは完了';
+  }
+  function startFlash(){
+    const due=flashDue().sort((a,b)=>(flashState(b.id).misses||0)-(flashState(a.id).misses||0));
+    const fresh=flashNewAvailable();
+    const queue=[...due,...fresh];
+    if(!queue.length){alert("今日のカードは完了です。翌日の復習を待ちましょう。");return;}
+    flashSession={queue,index:0};
+    showScreen("flashScreen");
+    renderFlash();
+  }
+  function renderFlash(){
+    shownFlash=flashSession.queue[flashSession.index];
+    $("flashCount").textContent=`${flashSession.index+1}/${flashSession.queue.length}`;
+    $("flashProgressBar").style.width=`${flashSession.index/flashSession.queue.length*100}%`;
+    $("flashTag").textContent=shownFlash.category;
+    $("flashOrigin").textContent=`第${shownFlash.lecture}回`;
+    $("flashFront").textContent=shownFlash.front;
+    $("flashBack").textContent=shownFlash.back;
+    $("flashHiddenArea").classList.remove("hidden");
+    $("flashRevealedArea").classList.add("hidden");
+  }
+  function revealFlash(){
+    $("flashHiddenArea").classList.add("hidden");
+    $("flashRevealedArea").classList.remove("hidden");
+  }
+  function gradeFlash(kind){
+    if(!shownFlash || !flashSession || $("flashRevealedArea").classList.contains("hidden")) return;
+    const s=flashState(shownFlash.id);
+    const fresh=s.seenCount===0;
+    s.seenCount++;
+    s.lastAnswered=todayKey();
+    if(fresh) state.flashNewDaily[todayKey()]=(state.flashNewDaily[todayKey()]||0)+1;
+    if(kind==='again'){
+      s.misses++; s.stage=0; s.nextReview=addDays(1);
+    } else if(kind==='hard'){
+      s.misses++; s.stage=Math.max(0,s.stage-1); s.nextReview=addDays(1);
+    } else {
+      s.stage=Math.min((s.stage||0)+1,INTERVALS.length);
+      s.nextReview=addDays(INTERVALS[s.stage-1]||30);
+    }
+    saveState();
+    flashSession.index++;
+    if(flashSession.index>=flashSession.queue.length){
+      flashSession=null; shownFlash=null;
+      alert("今日の暗記カードが終わりました。忘れた・怪しいカードは翌日また出ます。");
+      renderHome();
+    }else renderFlash();
+  }
+
   function bind(){
+    $("startFlashBtn").addEventListener("click",startFlash);
+    $("flashRevealBtn").addEventListener("click",revealFlash);
+    document.querySelectorAll("[data-flash-grade]").forEach(btn=>btn.addEventListener("click",()=>gradeFlash(btn.dataset.flashGrade)));
     document.querySelectorAll("[data-mode]").forEach(btn=>{
       btn.addEventListener("click",()=>{
         const mode=btn.dataset.mode;
